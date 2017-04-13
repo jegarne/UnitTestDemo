@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TechJobs.Data;
 
 namespace UnitTestDemo
 {
@@ -10,6 +11,8 @@ namespace UnitTestDemo
     {
         static void Main(string[] args)
         {
+            var jobData = new JobData();
+            var jobs = jobData.Jobs;
         }
     }
 }
